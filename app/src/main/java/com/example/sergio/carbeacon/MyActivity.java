@@ -61,9 +61,9 @@ public class MyActivity extends Activity {
                         String number = phoneNumbers.getText().toString();
                         latitudine = "" + String.valueOf(location.getLatitude());
                         longitudine = "" + String.valueOf(location.getLongitude());
-                        Log.d("clickBottone", number + " " + testos);
+                        //Log.d("clickBottone", number + " " + testos);
                         message = ""+ testos +" . Mi trovi qui: "+"https://www.google.it/maps/place/" + latitudine + "," + longitudine;
-                        Log.d("clickBottone", "testo: " + message);
+                        //Log.d("clickBottone", "testo: " + message);
                         sendSMS(number, message);
                     }
 
